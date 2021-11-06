@@ -13,6 +13,6 @@ class Paper{
     display(){
         translate(this.body.position.x, this.body.position.y);
         imageMode(CENTER);
-        image(this.image,0,0,30,30);
+        image(this.image,0,0,100,100);
     }
 }
